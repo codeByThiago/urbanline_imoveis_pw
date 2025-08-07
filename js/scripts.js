@@ -1,0 +1,1 @@
+// Aqui ficaram todos os códigos em JS, contanto com funções, váriaveis etc.
