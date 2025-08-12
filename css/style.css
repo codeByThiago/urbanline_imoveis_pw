@@ -1,7 +1,32 @@
 @charset "UTF-8";
 
+:root {
+  --font-default: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 * {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-default);
+}
+
+.fundo_gradiente {
+  background: linear-gradient(135deg, #3658b4 0%, #5088e2 50%, #80b2f0 100%);
+}
+
+#glass-effect {
+  background: #fff;
+  /* Fundo levemente branco com transparência */
+  backdrop-filter: blur(10px);
+  /* Efeito de desfoque no fundo */
+  -webkit-backdrop-filter: blur(10px);
+  /* Compatibilidade para Safari */
+  border-radius: 0px 0px 15px #fff;
+  /* Bordas arredondadas */
+  border: 1px solid #fff;
+  /* Borda suave */
+
+  /* Efeito de sombra com luz branca */
+  box-shadow: 0px 0px 15px #fff;
+  /* Brilho branco suave */
 }
