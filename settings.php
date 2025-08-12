@@ -5,9 +5,11 @@
     <header>
         <?php include("inserts/navbar.php");?>
     </header>
+    
     <main>
-        <h1>Tela inicial</h1>
+        <h1>Configurações</h1>
     </main>
+    
     <footer>
         
     </footer>

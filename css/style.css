@@ -1,13 +1,22 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 :root {
   --font-default: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-emphasis: "Bebas Neue", sans-serif;
 }
 
 * {
   padding: 0;
   margin: 0;
   font-family: var(--font-default);
+}
+
+.font-emphasis {
+  font-family: var(--font-emphasis);
+  font-weight: 400;
+  font-style: normal;
 }
 
 .fundo_gradiente {

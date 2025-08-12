@@ -1,5 +1,4 @@
 <?php
-    $meta_titulo = "Portal de Acesso";
     include("inserts/header.php");
 ?>
 
