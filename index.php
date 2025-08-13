@@ -7,7 +7,6 @@
     </header>
     <main>
         <h1>Tela inicial</h1>
-        Mexi aqui
     </main>
     <footer>
         
