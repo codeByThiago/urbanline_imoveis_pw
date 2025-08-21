@@ -3,8 +3,18 @@ section#inicio {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 97vh;
 }
+
+div.background-image-container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+div.background-image-container img{
+    position: absolute;
+}
+
 
 div#procurarimovel {
     display: flex;

@@ -8,6 +8,11 @@
 
     <main>
         <section id="inicio">
+            <div class="background-image-container">
+                <img src="assets/img/carrosel (1).jpg" alt="">
+                <img src="assets/img/carrosel (2).jpg" alt="">
+                <img src="assets/img/carrosel (3).jpg" alt="">
+            </div>
             <h1>Venda e aluge imóveis mais perto de você</h1>
             <p>Os melhores imóveis estão aqui!</p>
             <form id="procurarimovel">
