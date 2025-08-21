@@ -1,0 +1,42 @@
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer section {
+    padding: 20px;
+    width: 300px;
+}
+
+footer h1 {
+    font-weight: bolder;
+    font-size: 1.5em
+}
+
+footer p {
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: orange;
+    transition: ease-in-out 300ms;
+}
+
+footer img {
+    width: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-items {
+  padding-right: 5px;  
+}
+

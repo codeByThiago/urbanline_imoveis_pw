@@ -1,0 +1,20 @@
+section#inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 97vh;
+}
+
+div#procurarimovel {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(69, 69, 69);
+    padding: 10px;
+    color: black;
+}
+
+form {
+    background-color: red;
+    padding: 10px;
+}

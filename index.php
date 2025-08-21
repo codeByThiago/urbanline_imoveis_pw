@@ -6,8 +6,20 @@
         <?php include("inserts/navbar.php");?>
     </header>
 
-    <main class="bg-orange-300 py-10">
-        <img src="assets/img/mao.png" alt="">
+    <main>
+        <section id="inicio">
+            <h1>Venda e aluge imóveis mais perto de você</h1>
+            <p>Os melhores imóveis estão aqui!</p>
+            <form id="procurarimovel">
+                <select name="pretencao" id="pretencao">
+                    <option value="Comprar">Comprar</option>
+                    <option value="Alugar">Alugar</option>
+                    <option value="Codigo">Código</option>
+                </select>
+                <input type="button" value="Mais filtros">
+                <input type="text">
+                <input type="submit" value="Procurar Imóvel">
+            </form>
     </main>
 
 <?php
