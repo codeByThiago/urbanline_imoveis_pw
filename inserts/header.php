@@ -1,5 +1,5 @@
 <?php
-    $meta_titulo = "Urbanline Imóveis"
+    $meta_titulo = ""
 ?>
 
 <!DOCTYPE html>
@@ -10,6 +10,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title><?php echo $meta_titulo;?></title>
+    <title>Urbanline Imóveis</title>
 </head>
 <body>
