@@ -47,12 +47,19 @@ body {
 }
 
 .find-property-container {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     z-index: 2;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    gap: 10px;
+}
+
+.find-property-container h1 {
+    font-size: 2em;
 }
 
 .find-property-form {
@@ -60,10 +67,36 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: darkblue;
+    background-color: rgb(53, 53, 53);
     gap: 20px;
-    padding: 40px;
+    padding: 20px;
     border-radius: 40px;
+}
+
+.input-text {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: white 1px solid;
+    color: white;
+}
+
+#filters {
+    padding: 10px 20px;
+    border-color: white;
+    color: white;
+    border-width: 1px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.submit-btn {
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    border-color: transparent;
 }
 
 section#best-options {
@@ -92,4 +125,9 @@ div#best-options-grid img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.best-options-image {
+    border-radius: 20px;
+    border: black 1px solid;
 }
