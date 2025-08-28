@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    gap: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    color: white;
+}
+
+.branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.branding h1 {
+    font-size: 1.5em;
+}
+
+.brand-image {
+    width: 50px;
+}
+
+.navbar-itens {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar-link a {
+    color: white;
+    text-decoration: none;
+}

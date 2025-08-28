@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@import url("carrosel.css");
+@import url("navbar.css");
+
+:root {
+  --font-padrao: normal 400 1em Arial, Helvetica, sans-serif;
+  --cor1: rgb(35, 35, 35);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: var(--font-padrao);
+  color: white;
+  background-color: var(--cor1);
+  overflow-x: hidden;
+}
