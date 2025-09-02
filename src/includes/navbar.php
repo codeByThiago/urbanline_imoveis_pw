@@ -2,7 +2,6 @@
     <div class="branding">
         <img src="assets/images/logo_sem_fundo.png" alt="Logo Urbanline Imóveis" class="brand-image">
         <h1>Urbanline Imóveis</h1>
-        <span class="material-symbols-outlined">menu</span>
     </div>
     <ul class="navbar-itens">
         <li class="navbar-link"><a href="index.php">Início</a></li>

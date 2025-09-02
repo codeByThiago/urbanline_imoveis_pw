@@ -1,19 +1,17 @@
 .background-image-container {
     position: relative;
-    height: 100vh;
     width: 100%;
-    overflow: hidden;
+    height: 100dvh;
 }
 
 .background-image {
     position: absolute;
-    height: 100vh;
+    height: 100dvh;
     width: 100%;
-    object-fit: cover;
-    left: 0;
-    top: 0;
-    right: 0;
     opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
     transform: scale(1.1);
     transition: opacity 2s ease-in-out, transform 2s ease-in-out;
 }
@@ -24,69 +22,9 @@
 }
 
 .dark-overlay {
-    background-color: rgba(0, 0, 0, 0.597);
     position: absolute;
-    height: 100vh;
-    width: 100%;
-    left: 0;
-    top: 0;
-    right: 0;
     z-index: 1;
-}
-
-.find-property-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-}
-
-.find-property-container h1, .find-property-container p {
-    text-align: center;
-    color: white;
-}
-
-.find-property-container h1 {
-    font-size: 2.5em;
-    text-align: center;
-    color: white;
-}
-
-.find-property-form {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    background-color: rgb(33, 32, 32);
-    padding: 20px;
-    color: white;
-    border-radius: 30px;
-}
-
-div.selected {
-    border: 1px solid rgba(255, 255, 255, 0.155);
-    border-radius: 10px;
-    width: fit-content;
-    padding: 10px;
-}
-
-#localidade {
-    background-color: transparent;
-    color: white;
-    padding: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.155);
-    border-radius: 10px;
-    width: 300px;
-}
-
-.submit {
-    color: white;
-    padding: 10px;
-    border-width: 0px;
-    border-radius: 10px;
-    background-color: rgb(74, 0, 131);
-    font-weight: bolder;
+    top: 0;
+    left: 0;
+    right: 0;
 }
