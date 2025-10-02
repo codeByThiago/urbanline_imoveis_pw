@@ -72,7 +72,7 @@ INSERT INTO imoveis (nome, usuario_id, endereco_id, tipo_imovel, valor, area, de
 ('Chácara Simples', 7, 7, 'chacara', 450000.00, 800.00, 'Localizada em área rural, ideal para quem busca sossego.', 'usado', 1, 0, 1, 1, 0, 2, 'alugado', FALSE),
 ('Sobrado c/ Piscina Aquecida', 8, 8, 'sobrado', 1100000.00, 300.00, 'Imóvel de alto luxo com todos os confortos modernos.', 'novo', 4, 4, 1, 5, 1, 4, 'disponivel', TRUE),
 ('Casa Econômica 2 Quartos', 9, 9, 'casa', 180000.00, 80.00, 'Excelente para primeiro imóvel, bairro tranquilo.', 'usado', 2, 0, 1, 1, 0, 1, 'vendido', FALSE),
-('Sobrado em Construção', 10, 10, 'sobrado', 650000.00, 200.00, 'Oportunidade na planta, entrega em 6 meses.', 'em_construcao', 3, 2, 1, 3, 0, 2, 'disponivel', FALSE),
+('Sobrado em Construção', 10, 10, 'sobrado', 650000.00, 200.00, 'Oportunidade na planta, entrega em 6 meses.', 'em_construcao', 3, 2, 1, 3, 0, 2, 'disponivel', FALSE);
 
 INSERT INTO imoveis (nome, usuario_id, endereco_id, tipo_imovel, valor, area, descricao, condicao, quant_quartos, quant_suites, quant_cozinhas, quant_banheiros, quant_piscinas, vagas_garagem, status, mobiliado) VALUES
 ('Apartamento Central 2Q', 1, 11, 'apartamento', 350000.00, 75.00, 'Localização privilegiada, próximo a comércios e transporte.', 'usado', 2, 0, 1, 1, 0, 1, 'disponivel', TRUE),
@@ -84,7 +84,7 @@ INSERT INTO imoveis (nome, usuario_id, endereco_id, tipo_imovel, valor, area, de
 ('Apartamento Térreo', 7, 17, 'apartamento', 260000.00, 65.00, 'Acesso fácil e rápido ao prédio, sem degraus.', 'usado', 2, 0, 1, 1, 0, 1, 'alugado', FALSE),
 ('Cobertura de Luxo Mobiliada', 8, 18, 'cobertura', 2200000.00, 400.00, 'Decoração de design, pronto para morar.', 'novo', 4, 4, 2, 6, 1, 4, 'disponivel', TRUE),
 ('Apartamento na Planta', 9, 19, 'apartamento', 380000.00, 85.00, 'Lançamento em bairro promissor.', 'em_construcao', 2, 1, 1, 2, 1, 1, 'vendido', FALSE),
-('Kitnet Próximo à Universidade', 10, 20, 'kitnet', 150000.00, 35.00, 'Alta procura para aluguel estudantil.', 'usado', 0, 0, 1, 1, 0, 0, 'disponivel', TRUE),
+('Kitnet Próximo à Universidade', 10, 20, 'kitnet', 150000.00, 35.00, 'Alta procura para aluguel estudantil.', 'usado', 0, 0, 1, 1, 0, 0, 'disponivel', TRUE);
 
 INSERT INTO imoveis (nome, usuario_id, endereco_id, tipo_imovel, valor, area, descricao, condicao, quant_quartos, quant_suites, quant_cozinhas, quant_banheiros, quant_piscinas, vagas_garagem, status, mobiliado) VALUES
 ('Terreno em Zona Industrial', 1, 21, 'terreno', 600000.00, 500.00, 'Excelente para construção de galpão ou indústria.', 'usado', 0, 0, 0, 0, 0, 0, 'disponivel', FALSE),
@@ -96,7 +96,7 @@ INSERT INTO imoveis (nome, usuario_id, endereco_id, tipo_imovel, valor, area, de
 ('Terreno de Esquina', 7, 27, 'terreno', 310000.00, 450.00, 'Excelente ponto comercial e residencial.', 'usado', 0, 0, 0, 0, 0, 0, 'alugado', FALSE),
 ('Loja no Shopping', 8, 28, 'comercial', 550000.00, 80.00, 'Melhor ponto do shopping, alta circulação de pessoas.', 'novo', 0, 0, 0, 1, 0, 0, 'disponivel', TRUE),
 ('Terreno Residencial', 9, 29, 'terreno', 150000.00, 200.00, 'Bairro em expansão, bom para construir casa popular.', 'usado', 0, 0, 0, 0, 0, 0, 'vendido', FALSE),
-('Galpão em Construção', 10, 30, 'galpao', 1500000.00, 700.00, 'Estrutura metálica sendo montada.', 'em_construcao', 0, 0, 0, 0, 0, 0, 'disponivel', FALSE),
+('Galpão em Construção', 10, 30, 'galpao', 1500000.00, 700.00, 'Estrutura metálica sendo montada.', 'em_construcao', 0, 0, 0, 0, 0, 0, 'disponivel', FALSE);
 
 INSERT INTO imoveis (nome, usuario_id, endereco_id, tipo_imovel, valor, area, descricao, condicao, quant_quartos, quant_suites, quant_cozinhas, quant_banheiros, quant_piscinas, vagas_garagem, status, mobiliado) VALUES
 ('Casa Minúscula', 1, 31, 'casa', 100000.00, 40.00, 'Casa pequena, mas aconchegante, sem garagem.', 'usado', 1, 0, 1, 1, 0, 0, 'disponivel', TRUE),

@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="form-login-content">
-            <form action="../src/processos_antigos/cadastra-usuario.php" method="post" id="login-form">
+            <form action="../src/processos_antigos/cadastra-usuario.php" method="post" id="login-form" enctype="multipart/form-data">
                 <h2>Urbanline Imóveis</h2>
                 <!-- Dados Pessoais -->
                  <div class="progress-bar">

@@ -1,6 +1,4 @@
-Resumo da Opera
-
-
+<h1>Resumo da Opera</h1>
 
 *Partes feitas:*
 
@@ -32,3 +30,4 @@ Resumo da Opera
 * Dashboard do Proprietário e do Administrador
 * Contrato Automático
 * Sistema de Mensagens
+* Padronizar o CSS e fundir parecidos
