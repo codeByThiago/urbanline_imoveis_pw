@@ -1,0 +1,67 @@
+.form-step {
+    display: none;
+    flex-flow: column nowrap;
+    gap: 20px;
+    }
+
+.form-step.active  {
+    display: flex; /* Garante que apenas a etapa ativa é um flex container */
+}
+
+/* Estilos da Barra de Progresso */
+#barra {
+    width: 100%;
+    height: 11px;
+    background-color: #ccc; /* Cor de fundo da barra */
+    padding: 0; /* Removendo padding */
+    border-radius: 5px;
+    overflow: hidden; /* Importante para o progresso interno */
+}
+
+#progresso {
+    width: 0%;
+    height: 100%; /* Ocupa a altura total de #barra */
+    background-color: green;
+    border-radius: 5px 0 0 5px; 
+    transition: width .3s linear;
+}
+
+.progress-bar { /* Novo container para texto e barra */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.login-submit-btn, .prev-step-btn {
+    display: none; 
+}
+
+.prev-step-btn,
+.next-step-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prev-step-btn {
+    background-color: var(--bg-dark);
+    color: white;
+}
+
+.prev-step-btn:hover {
+    background-color: #d5d5d5;
+}
+
+.next-step-btn {
+    background-color: var(--accent-gold);
+    color: white;
+}
+
+.next-step-btn:hover {
+    background-color: var(--accent-gold-hover);
+}
